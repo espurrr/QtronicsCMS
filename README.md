@@ -1,4 +1,4 @@
-#Qtronics
+# Qtronics
 
 The CMS is for an online based electronic gadget selling company. In order to make a hassle-free experience for the tech enthusiasts when buying the gadgets, the CMS offers the following functionalities.  
 The Joomla extensions I used to achieve those are as below.  
@@ -20,7 +20,7 @@ The Joomla extensions I used to achieve those are as below.
 |Backup and restore |Akeeba Backup|
 
 
-##Copyright:
+## Copyright:
 	Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.  
 	Distributed under the GNU General Public License version 2 or later  
 	See License details at https://docs.joomla.org/Special:MyLanguage/Joomla_Licenses  
