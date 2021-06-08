@@ -1,0 +1,37 @@
+#articleList {
+	border: 1px solid #575758;
+}
+
+#articleList tbody tr:nth-child(2n+1) td {
+	background-color: #AAAAAA;
+}
+
+#articleList tbody tr td {
+	vertical-align: middle;
+	border: 1px solid #575758;
+	border-top: 0;
+	padding: 3px;
+	text-align: center;
+}
+
+#articleList tbody tr td div span {
+	border: 1px solid #575758;
+	padding: 3px;
+}
+
+#articleList tbody tr td div {
+	display: inline-block;
+	width: 100%;
+}
+
+#articleList thead tr th {
+	border: 1px solid #575758;
+	border-top: 0;	
+	text-align: center;
+}
+
+#articleList tbody tr td div input {
+	text-align: center;
+	border: 1px solid #575758;
+	padding: 3px;
+}

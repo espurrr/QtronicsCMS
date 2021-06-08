@@ -1,0 +1,38 @@
+.icons {
+	background-color: #e2e2e2;
+	width: 60px;
+	height: 60px;
+	margin: 0;
+}
+.icons img {
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	display: block;
+}
+.icons span {
+	margin: auto;
+	font-size: 10px;
+}
+#buttons_navi {
+	width: 130px;
+	float: left;
+}
+
+#buttons_edit {
+	width: 390px;
+	margin-left: 40px;
+	float: left;
+}
+
+#buttons_insert {
+	width: 130px;
+	margin-left: 40px;
+	float: left;
+}
+
+#buttons_view {
+	margin-left: 40px;
+	width: 130px;
+	float: left;
+}

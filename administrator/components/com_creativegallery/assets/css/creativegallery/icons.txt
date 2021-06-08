@@ -1,0 +1,23 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-services {
+    width: 64px;
+    height: 64px;
+    background-position: -30px -30px;
+}
+
+.sprite-star {
+    width: 64px;
+    height: 64px;
+    background-position: -154px -30px;
+}
+
+.sprite-support {
+    width: 64px;
+    height: 64px;
+    background-position: -30px -154px;
+}

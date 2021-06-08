@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url("./images/icons.png");
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 50%;
+    background-color: #a3a5a8;
+    -webkit-box-shadow: 0 0 3px 1px #e6e7e8;
+    -moz-box-shadow: 0 0 3px 1px #e6e7e8;
+    -webkit-box-shadow: 0 0 3px 1px #e6e7e8;
+    -moz-box-shadow: 0 0 3px 1px #e6e7e8;
+    box-shadow: 0 0 3px 1px #e6e7e8;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.sprite-services {
+    width: 90px;
+    height: 90px;
+    background-position: -17px -17px;
+}
+
+.sprite-star {
+    width: 90px;
+    height: 90px;
+    background-position: -141px -17px
+}
+
+.sprite-support {
+    width: 90px;
+    height: 90px;
+    background-position: -17px -141px;
+}

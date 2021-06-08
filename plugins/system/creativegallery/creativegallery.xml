@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" version="1.0" method="upgrade">
+    <name>Creative Gallery</name>
+    <creationDate>DEC 2015</creationDate>
+    <author>Creative Solutions</author>
+    <copyright>Copyright (©) 2012-2020 Creative Solutions company. All rights reserved.</copyright>
+    <authorEmail>info@creative-solutions.net</authorEmail>
+    <authorUrl>http://creative-solutions.net</authorUrl>
+    <version>2.2.0</version>
+    <license>GNU/GPLv3</license>
+    <description>PLG_CREATIVEGALLERY_DESCRIPTION</description>
+    <files>
+    	<filename>index.html</filename>
+        <filename plugin="creativegallery">creativegallery.php</filename>
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_system_creativegallery.ini</language>
+        <language tag="es-ES">es-ES/es-ES.plg_system_creativegallery.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.plg_system_creativegallery.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_system_creativegallery.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+        </fields>
+    </config>
+</extension>

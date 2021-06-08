@@ -1,0 +1,1 @@
+<span data-id="{tag_id}" class="creative-gallery-tag">{tag_name}</span>

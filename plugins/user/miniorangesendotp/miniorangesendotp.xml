@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="user" method="upgrade">
+	<name>PLG_USER_MINIORANGESENDOTP</name>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<authorUrl>www.miniorange.com</authorUrl>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<creationDate>Jan 2018</creationDate>
+	<copyright>Copyright 2015 miniOrange. All Rights Reserved.</copyright>
+	<license>http://miniorange.com/usecases/miniOrange_User_Agreement.pdf</license>
+	<version>4.6</version>
+	<description>PLG_USER_MINIORANGESENDOTP_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="miniorangesendotp">miniorangesendotp.php</filename>
+		<filename plugin="miniorangesendotp">constants.php</filename>
+		<filename plugin="miniorangesendotp">curl.php</filename>
+		<filename plugin="miniorangesendotp">moutility.php</filename>
+		<filename plugin="miniorangesendotp">miniorange_form_handler.php</filename>
+		<filename plugin="miniorangesendotp">miniorange_email_logic.php</filename>
+		<filename plugin="miniorangesendotp">miniorange_phone_logic.php</filename>
+		<filename plugin="miniorangesendotp">miniorange_logic_interface.php</filename>
+		<filename plugin="miniorangesendotp">common-elements.php</filename>
+		<filename plugin="miniorangesendotp">default.php</filename>
+		<filename plugin="miniorangesendotp">messages.php</filename>
+		<folder>language</folder>
+		<folder>media</folder>
+	</files>
+	
+	<!-- <media destination="miniorangesendotp" folder="media">
+        <folder>images</folder>
+        <folder>css</folder>
+    </media> -->
+	 <config />
+	 <!-- <media plugin="miniorangesendotp" folder="media">
+        <folder>images</folder>
+        <folder>css</folder>
+    </media> -->
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_user_miniorangesendotp.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_user_miniorangesendotp.sys.ini</language>
+	</languages>
+	
+</extension>

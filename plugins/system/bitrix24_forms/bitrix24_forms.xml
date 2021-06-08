@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="system">
+	<name>PLG_B24F_PLUGIN_NAME</name>
+	<author>Bitrix24</author>
+	<creationDate>October 2016</creationDate>
+	<copyright>Copyright (C) Bitrix24</copyright>
+	<authorEmail>info@bitrix24.com</authorEmail>
+	<authorUrl>www.bitrix24.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_B24F_PLUGIN_DESCRIPTION</description>
+	<files>
+		<filename plugin="bitrix24_forms">bitrix24_forms.php</filename>
+		<filename>bitrix24_class.php</filename>
+		<filename>bitrix24_processing.php</filename>
+	</files>
+	<languages>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_system_bitrix24_forms.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_system_bitrix24_forms.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_bitrix24_forms.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_bitrix24_forms.sys.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_system_bitrix24_forms.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_system_bitrix24_forms.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="show_chat" type="checkbox" default="0" value="1" label="PLG_B24F_PLUGIN_SHOW_CHAT" />
+				<field name="chat_code" type="textarea" rows="7" cols="35" label="PLG_B24F_PLUGIN_CHAT_CODE" />
+				<field name="b24c_enable" type="checkbox" label="PLG_B24C_ENABLE" />
+				<field name="b24c_portal" type="text" label="PLG_B24C_PLUGIN_PORTAL" />
+				<field name="b24c_currency" type="text" label="PLG_B24C_PLUGIN_CURRENCY" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,70 @@
+#add_tags_dialog {
+  background-color: #8E8E8F;
+  color: black;
+}
+
+
+#add_tags_dialog .tagmanager_part {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+#add_tags_dialog img {
+  cursor: pointer;
+  opacity: 1;
+}
+
+#add_tags_dialog img:hover {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+#add_tags_dialog img:active {
+  -webkit-transform: translate(-1px, 1px);
+  -ms-transform: translate(-1px, 1px);
+  -o-transform: translate(-1px, 1px);
+  transform: translate(-1px, 1px);
+}
+
+#add_tags_dialog .right {
+  float: right;
+}
+
+#add_tags_dialog .tagmanager_line {
+  width: 70%;
+  height: 32px;
+  margin-top: 5px;
+}
+
+#add_tags_dialog .tagmanager_part select {
+  margin-top: 2px;
+  border-radius: 5px;
+}
+#add_tags_dialog .tagmanager_part span {
+  height: 32px;
+  line-height: 32px;
+  padding: 3px;
+  border: 2px solid #363636;
+  border-radius: 3px;
+}
+
+#manage_tags_part .tagmanager_part {
+  width: 150px;
+}
+
+
+#tags_confirm_dialog {
+  color: black;
+}
+
+#new_tag_dialog {
+  color: black;
+}
+
+#new_tag_dialog span {
+  color: red;
+  margin-bottom: 3px;
+}

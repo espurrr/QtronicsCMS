@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Creative Gallery">
+		<message>
+         <![CDATA[Creative Gallery]]>
+		</message>
+	</layout>
+	<state>
+		<name>Creative Gallery</name>
+		<description>Creative Gallery</description>
+		<params>
+		</params>
+	</state>
+
+	 <fields name="request">
+		<fieldset name="request" label="Album Options" addfieldpath="/administrator/components/com_creativegallery/fields">
+			 <field name="album" type="album" section="com_creativegallery" default="0" label="Album" description="Select Album" required="true"/>
+		</fieldset>
+	</fields>
+</metadata>

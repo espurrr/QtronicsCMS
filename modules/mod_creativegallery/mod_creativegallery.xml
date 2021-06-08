@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" method="upgrade" client="site">
+    <name>MOD_CREATIVEGALLERY_NAME</name>
+    <creationDate>DEC 2015</creationDate>
+    <author>Creative Solutions</author>
+    <copyright>Copyright (©) 2012-2020 Creative Solutions. All rights reserved.</copyright>
+    <authorEmail>info@creative-solutions.net</authorEmail>
+    <authorUrl>http://creative-solutions.net</authorUrl>
+    <version>2.2.0</version>
+    <license>GNU/GPLv3</license>
+    <description>MOD_CREATIVEGALLERY_DESCRIPTION</description>
+	<files>
+     	<filename>index.html</filename>
+        <filename module="mod_creativegallery">mod_creativegallery.php</filename>
+	</files>
+	<languages>
+			<language tag="en-GB">language/en-GB/en-GB.mod_creativegallery.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.mod_creativegallery.sys.ini</language>
+			 <language tag="fr-FR">language/fr-FR/fr-FR.mod_creativegallery.ini</language>
+			 <language tag="fr-FR">language/fr-FR/fr-FR.mod_creativegallery.sys.ini</language>
+		     <language tag="es-ES">language/es-ES/es-ES.mod_creativegallery.ini</language>
+			 <language tag="es-ES">language/es-ES/es-ES.mod_creativegallery.sys.ini</language>
+		     <language tag="de-DE">language/de-DE/de-DE.mod_creativegallery.ini</language>
+			 <language tag="de-DE">language/de-DE/de-DE.mod_creativegallery.sys.ini</language>
+	</languages>
+	<config>
+	   	<fields name="params">
+	   		<fieldset name="basic">
+		  		<field type="sql" name="album_id" label="MOD_CREATIVEGALLERY_SELECT_GALLERY_LABEL" default="" description="MOD_CREATIVEGALLERY_SELECT_GALLERY_DESCRIPTION" query="SELECT id AS value, name AS album_id FROM #__cg_albums WHERE `published` = '1'" />
+	   		</fieldset>
+	   	</fields>
+	</config>
+</extension>
